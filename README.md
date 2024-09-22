@@ -1,4 +1,4 @@
-# Notes App
+# 📓 Notes App
 
 A simple and efficient notes application that allows users to create, read, update, and delete notes. This application features a clean UI and uses MongoDB as the backend database.
 
@@ -18,9 +18,9 @@ A simple and efficient notes application that allows users to create, read, upda
 
 ## Features
 
-- Create, update, and delete notes
-- Search functionality
-- User authentication
+- 📝 Create, update, and delete notes
+- 🔍 Search functionality
+- 🔐 User authentication
 
 ## Technologies Used
 
@@ -29,10 +29,11 @@ A simple and efficient notes application that allows users to create, read, upda
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
 
-## .env file
-```
+## 🌍 Environment Variables
+
+Create a `.env` file in the `backend` directory with the following variables:
+
+```plaintext
 PORT=5000             
 SecriteKey=your_secret_key  
 MONGO_URI=mongodb://your_mongo_uri  
-```
-
